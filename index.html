@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== ICONS ==========-->
+        <script src="https://kit.fontawesome.com/f39ca1475e.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+
+
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+
+        <title>Sukesh Raghav G</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Sukesh Raghav G</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="fa-solid fa-house nav__icon"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="fa-solid fa-user nav__icon"></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="fa-solid fa-book nav__icon"></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="fa-solid fa-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="fa-solid fa-timeline nav__icon"></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="fa-solid fa-award nav__icon"></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#What_i_do/did" class="nav__link">
+                                <i class='fa-solid fa-database nav__icon'></i>What I do/did
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-border-all"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/DP.jfif" alt="" class="home__img">
+
+                                <h1 class="home__title"><b>Sukesh Raghav G</b></h1>
+                                <h3 class="home__profession">STUDENT | CYBER SECURITY ENTHUSIAST</h3>
+                                <h3 class="home__profession">“A Technophile trying to get better at everything.”</h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/Sukesh Raghav G.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="fa-solid fa-house"></i>&nbsp;CHENNAI
+                                </span>
+                                <span class="home__information">
+                                    <i class="fa-solid fa-envelope"></i>&nbsp;sukeshraghav@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="fa-solid fa-phone"></i>&nbsp;7904629890
+                                </span>
+                            </div>
+                        </div>
+                    
+            
+                        <!-- Theme change button -->
+                        <i class='fa-regular fa-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='fa-solid fa-download generate-pdf' title="Generate PDF" id="resume-button"></i><i class=""></i>
+                    </section>
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/sukesh-raghav-a3b8391b0/" target="_blank" class="social__link">
+                                <span><i class="fa-brands fa-linkedin"></i>&nbsp;Sukesh Raghav G</span>
+                            </a>
+                            <a href="https://github.com/sukesh02" target="_blank" class="social__link">
+                                <i class="fa-brands fa-square-github"></i>&nbsp; sukesh02
+                            </a>
+                            <a href="https://www.instagram.com/sukesh_raghav_/" target="_blank" class="social__link">
+                                <i class="fa-brands fa-square-instagram"></i></i>&nbsp;sukesh_raghav_
+                            </a>
+                            <a href="https://g.dev/sukeshraghavg" target="_blank" class="social__link">
+                                <i class="fa-solid fa-code"></i>&nbsp;Sukesh Raghav G
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">I'm a prefinal-year student in CSE at Sathyabama University. I've worked in the field of cyber security for over 1 year and am now focusing on front-end development. I enjoy playing in CTF.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">B.E with Artificial Intelligence (Computer Science Engineering)</h3>
+                                    <span class="education__studies">SATHYABAMA UNIVERSITY</span>
+                                    <span class="education__year">2020 - PRESENT</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">12TH</h3>
+                                    <span class="education__studies">Sitadevi Garodia Hindu Vidyalaya (TN State Board)</span>
+                                    <span class="education__year">2018 - 2019</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">10TH</h3>
+                                    <span class="education__studies">Sitadevi Garodia Hindu Vidyalaya</span>
+                                    <span class="education__year">2016 - 2017</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Bash
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Python
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Github
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Linux
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Figma
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Burp Suite
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> VirtualBox
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> AI & ML
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">INTERNSHIP</h3>
+                                    <span class="experience__company">From Aug 2020 to Present | GCPA</span>
+                                    <p class="experience__description">In the name of Ersegment, we perform scanning and penetration testing on government and e-commerce websites.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span>  -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">INTERNSHIP - Software Developer</h3>
+                                    <span class="experience__company">From Dec 2022 to PRESENT | BENX Solutions </span>
+                                    <p class="experience__description"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Azure and Github Essentials | Azure and Github Workshop <a class='section-title bx bx-link' target="_blank" href="/Sukesh portfolio/sukesh raghav portfolio/assets/pdf/CetificateAzure.jpg"><i class="fa-solid fa-link fa-beat"></i></a></h3>
+                                <p class="certificate__description">Learnt about Microsoft Azure and Github fundamentals.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Robotics Workshop | Sathyabama University <a class='section-title bx bx-link' target="_blank" href="/Sukesh portfolio/sukesh raghav portfolio/assets/pdf/RoboticsWorkshopCertificate.png"><i class="fa-solid fa-link fa-beat"></i></a></i></h3>
+                                <p class="certificate__description">Participated in a Robotics Workshop conducted at our University and gained a Certificate of Excellence.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Flipkart Grid 4.0 | Flipkart <a class='section-title bx bx-link' target="_blank" href="/Sukesh portfolio/sukesh raghav portfolio/assets/pdf/FlipkartGrid.jpg"><i class="fa-solid fa-link fa-beat"></i></a> </h3>
+                                <p class="certificate__description">Participated in a contest conducted by Flipkart.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== What i do/did ==========-->
+                    <section class="What i do/did section" id="What_i_do/did">
+                        <h2 class="section-title">What I do/did</h2>
+                        <div>
+                            <div>
+                                <ul style="list-style-type:disc">
+                                    <li class = "li_what_i_do" class="profile__description">In our college, I have conducted workshops.</li>
+                                    <li class = "li_what_i_do" class="profile__description">I design Brochures for events.</li>
+                                    <li class = "li_what_i_do" class="profile__description">I distro-hop from linux to linux experimenting with them.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== ACHIEVEMENT ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Achievements</h2>
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Awards & Honours</h3>
+                                <li class = "li_what_i_do" class="profile__description">I got selected as <b>School Best Cadet</b> in the NCC camp I attended when I was in school. <a class='section-title bx bx-link bx-tada' target="_blank" href="https://twitter.com/ccoe_hyd/status/1468896528790011908?s=20"></a></li>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="fa-solid fa-flag"></i>
+                                <span class="interests__name">Play CTF</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="fa-solid fa-book"></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="fa-solid fa-child-combatant"></i>    
+                                <span class="interests__name">Games</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== LANGUAGES ========== --> 
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Telugu
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Tamil
+                                </li>
+                            </ul>
+                        </div>
+                    </section>                
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="fa-solid fa-caret-up"></i>
+        </a>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
